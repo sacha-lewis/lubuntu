@@ -1,11 +1,12 @@
 # Install Lubuntu
 
+### Common
 Install the following libraries
 ```angular2html
 sudo apt install libfuse2 curl
 ```
 
-PHPStorm
+### PHPStorm
 - Doiwnload toolbox
   https://www.jetbrains.com/toolbox-app/
 ```angular2html
@@ -19,6 +20,12 @@ now go into the directory and run the file
 Now it will popup and you can install PhpStorm
 
 
+### Opera
+Download and RUN DEB
+https://www.opera.com/browsers/opera
 
+Install RainDrop.io bookmark extension https://help.raindrop.io/install-extension
+
+Install Bitwarden for password management https://addons.opera.com/en/extensions/details/bitwarden-free-password-manager/
 
 
