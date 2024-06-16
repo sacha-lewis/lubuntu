@@ -1,9 +1,9 @@
 # Install Lubuntu
 
-### Common
+### Install 
 Install the following libraries
 ```angular2html
-sudo apt install libfuse2 curl
+sudo apt install libfuse2 curl x11vnc 
 ```
 
 ### PHPStorm
