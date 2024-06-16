@@ -29,3 +29,8 @@ Install RainDrop.io bookmark extension https://help.raindrop.io/install-extensio
 Install Bitwarden for password management https://addons.opera.com/en/extensions/details/bitwarden-free-password-manager/
 
 
+### TailScale
+
+curl -fsSL https://tailscale.com/install.sh | sh
+
+
