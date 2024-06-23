@@ -11,7 +11,8 @@ https://lubuntu.me/downloads/
 Install the following libraries
 
 ```angular2html
-sudo apt install libfuse2 curl x11vnc 
+sudo apt-get update
+sudo apt install libfuse2 curl x11vnc lubuntu-restricted-extras ffmpeg
 ```
 
 ### PHPStorm
@@ -47,8 +48,9 @@ sudo apt install opera-stable
 
 Install RainDrop.io bookmark extension https://help.raindrop.io/install-extension
 
-Install Bitwarden for password
-management https://addons.opera.com/en/extensions/details/bitwarden-free-password-manager/
+Install Bitwarden
+- Opera: https://addons.opera.com/en/extensions/details/bitwarden-free-password-manager/
+- Firefox: https://addons.mozilla.org/en-CA/firefox/addon/bitwarden-password-manager/
 
 ### TailScale
 
@@ -114,3 +116,13 @@ Create files ~/.nanorc
 ```shell
 set tabsize 2
 ```
+
+
+
+
+
+### ISSUES
+1. Opera does not play youtube videos
+
+
+
