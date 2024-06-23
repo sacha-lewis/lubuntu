@@ -61,46 +61,47 @@ Simple way to snap windows while working
 ```xml
 
 <openbox_config>
-    <keyboard>
-        <!-- keybind code start-->
-        <keybind key="C-S-Left">
-            <action name="UnmaximizeFull"/>
-            <action name="MoveResizeTo">
-                <width>66%</width>
-                <height>100%</height>
-                <x>0%</x>
-                <y>0%</y>
-            </action>
-        </keybind>
-        <keybind key="C-S-Right">
-            <action name="UnmaximizeFull"/>
-            <action name="MoveResizeTo">
-                <width>34%</width>
-                <height>100%</height>
-                <x>66%</x>
-                <y>0%</y>
-            </action>
-        </keybind>
-        <keybind key="C-S-Down">
-            <action name="UnmaximizeFull"/>
-            <action name="MoveResizeTo">
-                <width>66%</width>
-                <height>50%</height>
-                <x>34%</x>
-                <y>50%</y>
-            </action>
-        </keybind>
-        <keybind key="C-S-Up">
-            <action name="UnmaximizeFull"/>
-            <action name="MoveResizeTo">
-                <width>34%</width>
-                <height>50%</height>
-                <x>66%</x>
-                <y>0%</y>
-            </action>
-        </keybind>
-        <!-- keybind code end -->
-    </keyboard>
+  <keyboard>
+    <!-- keybind code start-->
+    <keybind key="C-S-Left">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>66%</width>
+        <height>100%</height>
+        <x>0%</x>
+        <y>0%</y>
+      </action>
+    </keybind>
+    <keybind key="C-S-Right">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>34%</width>
+        <height>100%</height>
+        <x>66%</x>
+        <y>0%</y>
+      </action>
+    </keybind>
+    <keybind key="C-S-Up">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>34%</width>
+        <height>34%</height>
+        <x>66%</x>
+        <y>0%</y>
+      </action>
+    </keybind>
+    <keybind key="C-S-Down">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>66%</width>
+        <height>50%</height>
+        <x>34%</x>
+        <y>50%</y>
+      </action>
+    </keybind>
+
+    <!-- keybind code end -->
+  </keyboard>
 </openbox_config>
 ```
 
