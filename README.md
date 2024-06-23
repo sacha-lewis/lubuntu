@@ -64,7 +64,7 @@ Simple way to snap windows while working
         <keybind key="C-S-Left">
             <action name="UnmaximizeFull"/>
             <action name="MoveResizeTo">
-                <width>50%</width>
+                <width>66%</width>
                 <height>100%</height>
                 <x>0%</x>
                 <y>0%</y>
@@ -73,27 +73,27 @@ Simple way to snap windows while working
         <keybind key="C-S-Right">
             <action name="UnmaximizeFull"/>
             <action name="MoveResizeTo">
-                <width>50%</width>
+                <width>34%</width>
                 <height>100%</height>
-                <x>50%</x>
+                <x>66%</x>
                 <y>0%</y>
             </action>
         </keybind>
         <keybind key="C-S-Down">
             <action name="UnmaximizeFull"/>
             <action name="MoveResizeTo">
-                <width>100%</width>
+                <width>66%</width>
                 <height>50%</height>
-                <x>0%</x>
+                <x>34%</x>
                 <y>50%</y>
             </action>
         </keybind>
         <keybind key="C-S-Up">
             <action name="UnmaximizeFull"/>
             <action name="MoveResizeTo">
-                <width>100%</width>
+                <width>34%</width>
                 <height>50%</height>
-                <x>0%</x>
+                <x>66%</x>
                 <y>0%</y>
             </action>
         </keybind>
@@ -104,4 +104,13 @@ Simple way to snap windows while working
 
 ```php
 openbox --reconfigure
+```
+
+
+
+
+### Nano config
+Create files ~/.nanorc
+```shell
+set tabsize 2
 ```
