@@ -1,5 +1,11 @@
 # Install Lubuntu
 
+### Download 24.04 LTS (Noble Numbat)
+https://lubuntu.me/downloads/
+
+### Create USB Bootable
+
+
 ### Install 
 Install the following libraries
 ```angular2html
@@ -21,8 +27,15 @@ Now it will popup and you can install PhpStorm
 
 
 ### Opera
-Download and RUN DEB
-https://www.opera.com/browsers/opera
+Install the Opera browser
+```php
+sudo sh -c 'echo "deb [arch=amd64] https://deb.opera.com/opera-stable/ stable non-free" > /etc/apt/sources.list.d/opera.list'
+wget -qO- https://deb.opera.com/archive.key | sudo apt-key add -
+sudo apt update
+sudo apt install opera-stable
+```
+
+#### Extensions
 
 Install RainDrop.io bookmark extension https://help.raindrop.io/install-extension
 
@@ -32,5 +45,3 @@ Install Bitwarden for password management https://addons.opera.com/en/extensions
 ### TailScale
 
 curl -fsSL https://tailscale.com/install.sh | sh
-
-
