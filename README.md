@@ -14,7 +14,6 @@ Apt
 ```shell
 sudo apt-get update
 sudo apt install libfuse2 curl x11vnc lubuntu-restricted-extras ffmpeg snapd flatpak
-
 ```
 
 Snap
@@ -27,24 +26,21 @@ sudo snap install tigervnc
 Flatpak
 ```shell
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
 ```
-
-
 
 ### PHPStorm
 
 - Doiwnload toolbox
   https://www.jetbrains.com/toolbox-app/
 
-```angular2html
+```shell
 sudo tar -xzf jetbrains-toolbox-1.17.7391.tar.gz -C /opt
 cd /opt
 ```
 
 now go into the directory and run the file
 
-```angular2html
+```shell
 ./jetbrains-toolbox
 ```
 
@@ -52,7 +48,7 @@ Now it will popup and you can install PhpStorm
 
 ### Opera
 
-Install the Opera browser
+Install the Opera browser - ERROR doesn't play youtube
 
 ```php
 sudo sh -c 'echo "deb [arch=amd64] https://deb.opera.com/opera-stable/ stable non-free" > /etc/apt/sources.list.d/opera.list'
@@ -71,10 +67,14 @@ Install Bitwarden
 
 ### TailScale
 
+```shell
 curl -fsSL https://tailscale.com/install.sh | sh
+```
 
 ### Window Snapping
-Simple way to snap windows while working
+Simple way to snap windows. 
+- First access openbox settings and this will auto create this file
+- ~/.config/openbox/rc.xml
 ```xml
 
 <openbox_config>
@@ -93,9 +93,9 @@ Simple way to snap windows while working
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <width>34%</width>
-        <height>100%</height>
+        <height>66%</height>
         <x>66%</x>
-        <y>0%</y>
+        <y>34%</y>
       </action>
     </keybind>
     <keybind key="C-S-Up">
@@ -122,7 +122,7 @@ Simple way to snap windows while working
 </openbox_config>
 ```
 
-```php
+```shell
 openbox --reconfigure
 ```
 
@@ -131,9 +131,6 @@ Create files ~/.nanorc
 ```shell
 set tabsize 2
 ```
-
-### ISSUES
-1. Opera does not play youtube videos
 
 ### Screenshot
 Set up a keyboard shortcut to auto take a screenshot
@@ -153,6 +150,8 @@ After installation you can type
 
 ```shell
 sudo tailscale up
-
 ```
+
+### TROUBLESHOOTING:
+- Sound very low, fix with alsamixer. Open terminal and type 'alsamixer'
 
