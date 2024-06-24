@@ -72,7 +72,7 @@ curl -fsSL https://tailscale.com/install.sh | sh
 ```
 
 ### Window Snapping
-Simple way to snap windows. 
+Simple way to snap windows. CTRL+SHIFT+ARROWS and CTRL+SHIFT+S to max
 - First access openbox settings and this will auto create this file
 - ~/.config/openbox/rc.xml
 ```xml
@@ -80,6 +80,10 @@ Simple way to snap windows.
 <openbox_config>
   <keyboard>
     <!-- keybind code start-->
+
+    <keybind key="C-S-s">
+      <action name="MaximizeFull"/>
+    </keybind>
     <keybind key="C-S-Left">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
