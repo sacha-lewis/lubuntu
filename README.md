@@ -158,4 +158,4 @@ sudo tailscale up
 
 ### TROUBLESHOOTING:
 - Sound very low, fix with alsamixer. Open terminal and type 'alsamixer'
-
+- Sound volume keys not working, open Pulse audio and change configuration to PRO audio
