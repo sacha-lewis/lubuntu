@@ -10,10 +10,27 @@ https://lubuntu.me/downloads/
 
 Install the following libraries
 
-```angular2html
+Apt
+```shell
 sudo apt-get update
-sudo apt install libfuse2 curl x11vnc lubuntu-restricted-extras ffmpeg
+sudo apt install libfuse2 curl x11vnc lubuntu-restricted-extras ffmpeg snapd flatpak
+
 ```
+
+Snap
+```shell
+sudo snap install localsend
+sudo snap install skype
+sudo snap install tigervnc
+```
+
+Flatpak
+```shell
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+```
+
+
 
 ### PHPStorm
 
@@ -109,21 +126,33 @@ Simple way to snap windows while working
 openbox --reconfigure
 ```
 
-
-
-
 ### Nano config
 Create files ~/.nanorc
 ```shell
 set tabsize 2
 ```
 
-
-
-
-
 ### ISSUES
 1. Opera does not play youtube videos
 
+### Screenshot
+Set up a keyboard shortcut to auto take a screenshot
 
+Start - 'Shortcut keys'
+- ADD
+- CTRL + SHIFT + S
+- DESC: Shortcut
+- Type: Command
+- Command: 'lximage-qt --screenshot'
+
+### Tailscale
+
+curl -fsSL https://tailscale.com/install.sh | sh
+
+After installation you can type
+
+```shell
+sudo tailscale up
+
+```
 
