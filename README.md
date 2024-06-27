@@ -156,6 +156,18 @@ After installation you can type
 sudo tailscale up
 ```
 
+
+### Right click 2 fingers
+get the ID of your current trackpad
+```shell
+xinput list
+```
+eg if it is ID=11, enter this:
+```shell
+xinput set-prop 11 "libinput Click Method Enabled" 0, 1
+```
+
+
 ### TROUBLESHOOTING:
 - Sound very low, fix with alsamixer. Open terminal and type 'alsamixer'
 - Sound volume keys not working, open Pulse audio and change configuration to PRO audio
