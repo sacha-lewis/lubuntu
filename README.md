@@ -185,6 +185,21 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run hello-world
 ```
 
+4. Install Docker-compose
+```shell
+sudo apt  install docker-compose
+```
+
+5. Build and start docker
+```shell
+docker build -t php-8.1-app .
+docker run -p 80:80 -d php-8.1-app
+```
+Now open your browser and type: localhost
+
+
+
+
 ### Right click 2 fingers
 get the ID of your current trackpad
 ```shell
